@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Icons from "./icons";
 
 export default class Home extends Component {
   state = {
@@ -12,7 +13,7 @@ export default class Home extends Component {
             <div className="card" style={{ height: "100%" }}>
               <div className="row" style={{ height: "100%" }}>
                 <div className="col-sm-3" style={{ height: "100%" }}></div>
-                <div className="col-sm-6 " style={{ marginTop: "5%" }}>
+                <div className="col-sm-5 " style={{ marginTop: "5%" }}>
                   <div className="card ">
                     <div className="row">
                       <div className="col-xl-12">
@@ -47,6 +48,9 @@ export default class Home extends Component {
                       </div>
                     </div>
                   </div>
+                </div>
+                <div className="col-sm-4 mt-5">
+                  <Icons />
                 </div>
               </div>
             </div>

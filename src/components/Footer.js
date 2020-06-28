@@ -6,7 +6,7 @@ export default class Footer extends Component {
       <div>
         <nav className="navbar sticky-bottom navbar-light bg-light">
           <span className="navbar-brand mx-auto">
-            Dev{" "}
+            Developed{" "}
             <i
               className="fa fa-heart"
               style={{ fontSize: "24px", color: "red" }}

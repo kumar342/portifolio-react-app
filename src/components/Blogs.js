@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import blogaws from "./blogaws.png";
-import Capture from "./Capture.png";
-import awsimg from "./node-aws.png";
+import blogaws from "./awsstorage.png";
+import Capture from "./crud.png";
+import awsimg from "./nodedeploy.png";
 
 export default class Blogs extends Component {
   render() {
