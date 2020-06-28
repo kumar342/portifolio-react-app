@@ -21,6 +21,8 @@ export default class App extends Component {
           <Route path={"/projects"} component={Projects} />
           <Route path={"/skills"} component={Skills} />
         </Switch>
+        <br />
+        <br />
         <Footer />
       </BrowserRouter>
     );
