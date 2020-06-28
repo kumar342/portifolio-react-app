@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
 export default class Home extends Component {
+  state = {
+    magic: "✨",
+  };
   render() {
     return (
       <div style={{ height: "100vh" }}>
@@ -33,11 +36,12 @@ export default class Home extends Component {
                             pioneer and make a strong presence.
                           </p>
                           <p>
-                            I believe coding is magic✨, The magic which enables
-                            us to create everything the world has never seen
-                            before. Now, I build Webapps and UI for Websites.
-                            Actively looking for job opportunities.I love to
-                            work in high pressure startup environment
+                            I believe coding is magic{this.state.magic}, The
+                            magic which enables us to create everything the
+                            world has never seen before. Now, I build Webapps
+                            and UI for Websites. Actively looking for job
+                            opportunities.I love to work in high pressure
+                            startup environment
                           </p>
                         </div>
                       </div>
