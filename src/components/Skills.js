@@ -12,31 +12,35 @@ export default class Skills extends Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="col-sm-6 col-md-7">
-                        <div className="about-info">
-                          <p>
-                            <span className="title-s">Name: </span>{" "}
-                            <span>Hemanth Kumar</span>
-                          </p>
-                          <p>
-                            <span className="title-s">Profile: </span>{" "}
-                            <span>MERN Stack developer</span>
-                          </p>
-                          <p>
-                            <span className="title-s">Email: </span>{" "}
-                            <span>hemanth2gundala@gmail.com</span>
-                          </p>
-                          <p>
-                            <span className="title-s">Git: </span>
-                            <span>
-                              <p>https://github.com/kumar342</p>
-                            </span>
-                          </p>
+                        <div class="max-w-sm rounded overflow-hidden mt-2 shadow-lg">
+                          <div className="about-info mt-2 ml-2">
+                            <p>
+                              <h6 className="title-s">
+                                Name: <span>Hemanth Kumar</span>{" "}
+                              </h6>{" "}
+                            </p>
+                            <p>
+                              <h6 className="title-s">
+                                Profile: <span>MERN Stack developer</span>{" "}
+                              </h6>{" "}
+                            </p>
+                            <p>
+                              <h6 className="title-s">
+                                Email: <span>hemanth2gundala@gmail.com</span>{" "}
+                              </h6>{" "}
+                            </p>
+                            <p>
+                              <h6 className="title-s">
+                                Git: <span>https://github.com/kumar342</span>{" "}
+                              </h6>{" "}
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div className="skill-mf">
-                      <p className="title-s">Skill</p>
-                      <span>JavaScript</span>{" "}
+                      <h5 className="title-s">Skills</h5>
+                      <span className="italic">JavaScript</span>{" "}
                       <span className="pull-right">85%</span>
                       <div className="progress">
                         <div
@@ -48,7 +52,7 @@ export default class Skills extends Component {
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <span>React & Redux</span>{" "}
+                      <span className="italic">React & Redux</span>{" "}
                       <span className="pull-right">75%</span>
                       <div className="progress">
                         <div
@@ -60,7 +64,7 @@ export default class Skills extends Component {
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <span>Node & Express</span>{" "}
+                      <span className="italic">Node & Express</span>{" "}
                       <span className="pull-right">60%</span>
                       <div className="progress">
                         <div
@@ -72,7 +76,7 @@ export default class Skills extends Component {
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <span>MongoDB</span>{" "}
+                      <span className="italic">MongoDB</span>{" "}
                       <span className="pull-right">80%</span>
                       <div className="progress">
                         <div
@@ -84,7 +88,8 @@ export default class Skills extends Component {
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <span>AWS</span> <span className="pull-right">50%</span>
+                      <span className="italic">AWS</span>{" "}
+                      <span className="pull-right">50%</span>
                       <div className="progress">
                         <div
                           className="progress-bar bg-warning"

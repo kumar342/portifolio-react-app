@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./hemanth-kumar.jpg";
 
 export default class Home extends Component {
   render() {
@@ -9,15 +8,7 @@ export default class Home extends Component {
           <div className="col-xl-12" style={{ height: "100%" }}>
             <div className="card" style={{ height: "100%" }}>
               <div className="row" style={{ height: "100%" }}>
-                <div className="col-sm-3" style={{ height: "100%" }}>
-                  <img
-                    src={logo}
-                    width="100%"
-                    height="100%"
-                    className="img-rounded"
-                    alt="Me"
-                  />
-                </div>
+                <div className="col-sm-3" style={{ height: "100%" }}></div>
                 <div className="col-sm-6 " style={{ marginTop: "5%" }}>
                   <div className="card ">
                     <div className="row">
@@ -40,6 +31,13 @@ export default class Home extends Component {
                             opportunities that could compel my creativity and
                             innovation to work and constantly feed my zeal to
                             pioneer and make a strong presence.
+                          </p>
+                          <p>
+                            I believe coding is magic✨, The magic which enables
+                            us to create everything the world has never seen
+                            before. Now, I build Webapps and UI for Websites.
+                            Actively looking for job opportunities.I love to
+                            work in high pressure startup environment
                           </p>
                         </div>
                       </div>
