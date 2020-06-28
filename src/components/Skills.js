@@ -91,7 +91,8 @@ export default class Skills extends Component {
                     </div>
                     <div className="col-md-3">
                       <div className="skill-mf">
-                        <h5 className="title-s">Skills</h5>
+                        <br />
+                        <span className="title-s"></span>
                         <span className="italic">HTML</span>{" "}
                         <span className="pull-right">85%</span>
                         <div className="progress">
@@ -117,24 +118,24 @@ export default class Skills extends Component {
                           ></div>
                         </div>
                         <span className="italic">Bootstrap</span>{" "}
-                        <span className="pull-right">60%</span>
+                        <span className="pull-right">70%</span>
                         <div className="progress">
                           <div
                             className="progress-bar"
                             role="progressbar"
-                            style={{ width: "60%" }}
+                            style={{ width: "70%" }}
                             aria-valuenow="50"
                             aria-valuemin="0"
                             aria-valuemax="100"
                           ></div>
                         </div>
-                        <span className="italic">MongoDB</span>{" "}
-                        <span className="pull-right">80%</span>
+                        <span className="italic">Tailwindcss</span>{" "}
+                        <span className="pull-right">70%</span>
                         <div className="progress">
                           <div
                             className="progress-bar bg-dark"
                             role="progressbar"
-                            style={{ width: "80%" }}
+                            style={{ width: "0%" }}
                             aria-valuenow="90"
                             aria-valuemin="0"
                             aria-valuemax="100"
