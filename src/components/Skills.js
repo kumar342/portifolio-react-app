@@ -135,8 +135,8 @@ export default class Skills extends Component {
                           <div
                             className="progress-bar bg-dark"
                             role="progressbar"
-                            style={{ width: "0%" }}
-                            aria-valuenow="90"
+                            style={{ width: "70%" }}
+                            aria-valuenow="70"
                             aria-valuemin="0"
                             aria-valuemax="100"
                           ></div>
