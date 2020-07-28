@@ -97,8 +97,38 @@ export default class Projects extends Component {
           </div>
         </div>
 
-        <div className="col-sm-12">
+        <div className="col-sm-12 mt-2">
           <div className="row">
+            <div className="col-sm-4 ">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-60  ml-2">
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl  mb-2">
+                    Github Users list
+                  </div>
+                  <p className="text-gray-700 text-base">
+                    A web page which lists GitHub users based in Bangalore and
+                    this web page shows the list users with picture, have
+                    pagination & search.
+                  </p>
+                </div>
+                <div className="px-6 py-4">
+                  <button type="button" className="btn btn-outline-dark mr-2">
+                    {" "}
+                    <a href="https://github.com/kumar342/Git-search-users-api-project.git">
+                      <i className="fa fa-github" aria-hidden="true"></i> View
+                      Source
+                    </a>
+                  </button>
+
+                  <button type="button" className="btn btn-outline-primary">
+                    <a href="https://githubuserslist.netlify.app/">
+                      <i className="fa fa-globe mr-1" aria-hidden="true"></i>
+                      Live-view
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
             <div className="col-sm-4">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <div className="px-6 py-4">
