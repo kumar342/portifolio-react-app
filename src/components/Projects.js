@@ -13,8 +13,9 @@ export default class Projects extends Component {
                     Covid-19 Tracking System
                   </div>
                   <p className="text-gray-700 text-base">
-                    It is a React Application that use digital contact tracing
-                    in response to the Covid-19-Pandemic
+                    It is a React Application that the process of identifying
+                    contacts who may have been in contact with covid-19 infected
+                    by country-wise.
                   </p>
                 </div>
                 <div className="px-6 py-4">
@@ -71,9 +72,9 @@ export default class Projects extends Component {
                     A React-app-Random-Dog-image
                   </div>
                   <p className="text-gray-700 text-base">
-                    A simple React app which shows the list of all breeds from
-                    the dog.ceo API and also a detail page which shows a random
-                    image for the picked dog (from the list).
+                    A React app which shows list of all dogs breeds and also a
+                    detail page which shows a random image for the picked dog
+                    (from the list).
                   </p>
                 </div>
                 <div className="px-6 py-4">
@@ -97,7 +98,7 @@ export default class Projects extends Component {
           </div>
         </div>
 
-        <div className="col-sm-12 mt-2">
+        <div className="col-sm-12 mt-4">
           <div className="row">
             <div className="col-sm-4 ">
               <div className="max-w-sm rounded overflow-hidden shadow-lg h-60  ml-2">
@@ -134,8 +135,9 @@ export default class Projects extends Component {
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">Login system</div>
                   <p className="text-gray-700 text-base">
-                    An Application build a full stack login/Authentication using
-                    MERN Stack
+                    An Application build by using MERN Stack.it is an user
+                    Registration and Login functionality with React, NodeJs,
+                    ExpressJs and MongoDB.
                   </p>
                 </div>
                 <div className="px-6 py-4">
@@ -155,7 +157,9 @@ export default class Projects extends Component {
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">Node Application</div>
                   <p className="text-gray-700 text-base">
-                    An Application build with Node js and deployed by using AWS
+                    An Application build with Node js which shows the student's
+                    details in the form of json data(Get api) and deployed by
+                    using AWS
                   </p>
                 </div>
                 <div className="px-6 py-4">
