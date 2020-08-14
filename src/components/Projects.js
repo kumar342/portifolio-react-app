@@ -182,7 +182,7 @@ export default class Projects extends Component {
             </div>
           </div>
         </div>
-        <div className="col-sm-12">
+        <div className="col-sm-12 mt-3">
           <div className="row">
             <div className="col-sm-4">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
