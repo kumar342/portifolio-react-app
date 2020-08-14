@@ -182,6 +182,36 @@ export default class Projects extends Component {
             </div>
           </div>
         </div>
+        <div className="col-sm-12">
+          <div className="row">
+            <div className="col-sm-4">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2">
+                    Hotel Reservation
+                  </div>
+                  <p className="text-gray-700 text-base"></p>
+                </div>
+                <div className="px-6 py-4">
+                  <button type="button" className="btn btn-outline-dark mr-2">
+                    {" "}
+                    <a href="https://github.com/kumar342/Delicon-frontend.git">
+                      <i className="fa fa-github" aria-hidden="true"></i> View
+                      Source
+                    </a>
+                  </button>
+
+                  <button type="button" className="btn btn-outline-primary">
+                    <a href="http://hotel-booking.surge.sh/">
+                      <i className="fa fa-globe mr-1" aria-hidden="true"></i>
+                      Live-view
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
