@@ -13,10 +13,9 @@ export default class Projects extends Component {
                     Hotel Reservation Bookings
                   </div>
                   <p className="text-gray-700 text-base">
-                    A Hotel Reservation Application is developed with MERN
-                    Stack, Here can add, edit and delete the reservation
-                    details. Backend is deployed in aws and frontend is deployed
-                    in surge.sh;
+                    An Application is developed with MERN Stack, Here can add,
+                    edit and delete the reservation details. Backend is deployed
+                    in aws and frontend is deployed in surge.sh;
                   </p>
                 </div>
                 <div className="px-6 py-4">
