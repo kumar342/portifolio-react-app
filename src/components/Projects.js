@@ -107,9 +107,9 @@ export default class Projects extends Component {
                     Github Users list
                   </div>
                   <p className="text-gray-700 text-base">
-                    A web page which lists GitHub users based in Bangalore and
-                    this web page shows the list users with picture, have
-                    pagination & search.
+                    An Application is developed by using react which shows the
+                    list of github users along with picture and this page having
+                    pagination & search for a particular user.
                   </p>
                 </div>
                 <div className="px-6 py-4">
@@ -188,21 +188,24 @@ export default class Projects extends Component {
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">
-                    Hotel Reservation
+                    covid-19 Tracking System
                   </div>
-                  <p className="text-gray-700 text-base"></p>
+                  <p className="text-gray-700 text-base">
+                    It is a React Application that can trace the no of people
+                    who are infected with covid-19 by country-wise.
+                  </p>
                 </div>
                 <div className="px-6 py-4">
                   <button type="button" className="btn btn-outline-dark mr-2">
                     {" "}
-                    <a href="https://github.com/kumar342/Delicon-frontend.git">
+                    <a href="https://github.com/kumar342/Covid-19.git">
                       <i className="fa fa-github" aria-hidden="true"></i> View
                       Source
                     </a>
                   </button>
 
                   <button type="button" className="btn btn-outline-primary">
-                    <a href="http://hotel-booking.surge.sh/">
+                    <a href="https://covid-19-tracking-hk.netlify.app/">
                       <i className="fa fa-globe mr-1" aria-hidden="true"></i>
                       Live-view
                     </a>
