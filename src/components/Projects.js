@@ -74,9 +74,9 @@ export default class Projects extends Component {
                     A React-app-Random-Dog-image
                   </div>
                   <p className="text-gray-700 text-base">
-                    A React app which shows list of all dogs breeds and also a
-                    detail page which shows a random image for the picked dog
-                    (from the list).
+                    A React applicaton which shows the list of all dogs breeds
+                    and also a detail page which shows a random image for the
+                    picked dog (from the list).
                   </p>
                 </div>
                 <div className="px-6 py-4">
