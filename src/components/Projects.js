@@ -42,8 +42,10 @@ export default class Projects extends Component {
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">Google login</div>
                   <p className="text-gray-700 text-base">
-                    A web application where an user can login via Google. After
-                    the user login, user can update his details
+                    In this application,User can login by using Google. After
+                    login, user can sees his account details on the top-left
+                    side of the screen along with random orders in the form of a
+                    table.
                   </p>
                 </div>
                 <div className="px-6 py-4">
