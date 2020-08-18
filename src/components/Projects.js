@@ -10,25 +10,26 @@ export default class Projects extends Component {
               <div className="max-w-sm rounded overflow-hidden shadow-lg h-60  ml-2">
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl  mb-2">
-                    Covid-19 Tracking System
+                    Hotel Reservation Bookings
                   </div>
                   <p className="text-gray-700 text-base">
-                    It is a React Application that the process of identifying
-                    contacts who may have been in contact with covid-19 infected
-                    by country-wise.
+                    A Hotel Reservation Application is developed with MERN
+                    Stack, Here can add, edit and delete the reservation
+                    details. Backend is deployed in aws and frontend is deployed
+                    in surge.sh;
                   </p>
                 </div>
                 <div className="px-6 py-4">
                   <button type="button" className="btn btn-outline-dark mr-2">
                     {" "}
-                    <a href="https://github.com/kumar342/Covid-19.git">
+                    <a href="https://github.com/kumar342/Delicon-frontend.git">
                       <i className="fa fa-github" aria-hidden="true"></i> View
                       Source
                     </a>
                   </button>
 
                   <button type="button" className="btn btn-outline-primary">
-                    <a href="https://covid-19-tracking-hk.netlify.app/">
+                    <a href="http://hotel-booking.surge.sh/">
                       <i className="fa fa-globe mr-1" aria-hidden="true"></i>
                       Live-view
                     </a>
